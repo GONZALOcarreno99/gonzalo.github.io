@@ -1,0 +1,71 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0%;
+}
+
+.bg {
+  animation: slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(50deg, #283b38 49%, #000000 51%);
+  bottom: 0;
+  left: -50%;
+  opacity: 0.5;
+  position: fixed;
+  right: -50%;
+  top: 0;
+  z-index: -1;
+}
+
+.bg2 {
+  animation-direction: alternate-reverse;
+  animation-duration: 5s;
+}
+
+.bg3 {
+  animation-duration: 5s;
+}
+
+.content {
+  background-color: #0000004f;
+  border-radius: 5em;
+  border: 0px solid rgba(160, 157, 157, 0);
+  box-shadow: 0 0 0.20em rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 1vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  font-family: "Courier New", monospace;
+  line-height: 100%;
+  font-weight: bold;
+  max-width: auto; /* Establece un ancho máximo del 100% del contenedor padre */
+  height: auto; /* Asegura que la altura se ajuste automáticamente para mantener la proporción */
+  color: white;
+}
+
+h2 {
+  font-family: "Pacifico, cursive"; /* Usamos la fuente Pacifico y cursive como fuente de respaldo */
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@keyframes slide {
+  0% {
+      transform: translateX(-25%);
+  }
+  100% {
+      transform: translateX(25%);
+  }
+}
+
+.btn {
+  border: #00000000;
+}
