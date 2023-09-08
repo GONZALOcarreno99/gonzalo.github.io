@@ -43,7 +43,7 @@ body {
   font-family: "Courier New", monospace;
   line-height: 100%;
   font-weight: bold;
-  max-width: auto; /* Establece un ancho máximo del 100% del contenedor padre */
+  max-width: 86%; /* Establece un ancho máximo del 100% del contenedor padre */
   height: auto; /* Asegura que la altura se ajuste automáticamente para mantener la proporción */
   color: white;
 }
